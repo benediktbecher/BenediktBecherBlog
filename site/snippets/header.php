@@ -27,7 +27,7 @@
             $css_data = file_get_contents($out[2][0]);
         ?>
 
-        <style>
+        <style amp-custom>
 
             <?php echo $css_data; ?>
 
