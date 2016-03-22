@@ -14,7 +14,7 @@
 
       <?php foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
       <figure>
-        <img src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>">
+          <amp-img src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>" height="580" width="880"></amp-img>
       </figure>
       <?php endforeach ?>
     </div>
